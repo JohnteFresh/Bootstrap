@@ -4,8 +4,13 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./style.css">
   <title>Bootstrap Project</title>
+  <style>
+    section {
+      padding: 60px 0;
+    }
+  </style>
 
 </head>
 <body>
@@ -43,7 +48,7 @@
     <section id="headline">
       <div class="container-lg">
         <div class="row justify-content-center justify-content-md-start">
-          <div class="col-md-5 text-center text-md-start">
+          <div class="col-md-5 text-center text-md-start mt-5 pt-5">
             <h1>
               <div class="display-2">Johnson Irungu</div>
             </h1>
@@ -53,14 +58,40 @@
               </p>
               <a href="#collaboration" class="btn btn-dark btn-lg">Start Collaboration</a>
             </div>
-          <div class="back-ground-img col-md-5">
-            <img class="background-img" src="./Assets/Background_homepage/image-geometry_1.svg" alt="background-image">
+          <div class="back-ground-img col-md-5 d-none d-md-block">
+            <img class="background-img" src="./Assets/image-geometry_1 (1).png" alt="background-image">
           </div>
-          <div class="justify-content-center align-md-center">
-            <img src="./Assets/Background_homepage/image_dots.svg">
+          <div class="justify-content-center align-md-center align-middle">
+            <!-- <img src="./Assets/image_dots.png"> -->
           </div>
         </div>
       </div>
+    </section>
+
+    <section id="projects">
+      <div class="">
+        <h2 class="text-upwards">
+          Projects
+        </h2>
+      </div>
+
+      <div class="card border-0 float-end" style="width:50%;">
+        <img src="Assets/Rectangle 21.png" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Project name goes here</h5>
+        </div>
+        <ul class="list-group list-group-horizontal ">
+          <li class="list-group-item border-0"><button class="border-0">HTML/CSS</button></li>
+          <li class="list-group-item border-0"><button class="border-0">Ruby on Rails</button></li>
+          <li class="list-group-item border-0"><button class="border-0">JavaScript</button></li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link bg-dark">See this project
+            <img src="Assets/ic_arrow_right.png" alt="">
+          </a>
+        </div>
+      </div>
+
     </section>
   
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

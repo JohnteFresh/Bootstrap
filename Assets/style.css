@@ -1,0 +1,8 @@
+body {
+  width: 100%;
+}
+
+.text-upwards {
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+}

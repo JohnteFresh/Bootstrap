@@ -1,0 +1,40 @@
+body {
+  width: 100%;
+}
+
+/* get started */
+
+#get-start {
+  background-color: #F9F9FA;
+  width: 100%;
+}
+
+#get-start-contener {
+  width: 60%;
+  padding: 180px 11%;
+  background-color: #F9F9FA;
+}
+
+#get-start-contener h2 {
+  font-size: 110px;
+}
+
+#get-start-contener button {
+  background-color: #1a2236;
+}
+
+#right-bg {
+  width: 20%;
+  height: 350.75px;
+  background-image: url("/Assets/image-geometry_7.png");
+  background-repeat: no-repeat;
+  background-size: 100% 350.75px;
+}
+
+#left-bg {
+  width: 20%;
+  height: 350.75px;
+  background-image: url("/Assets/image-geometry_6.png");
+  background-repeat: no-repeat;
+  background-size: 100% 350.75px;
+}

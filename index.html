@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Assets/style.css">
+  <title>Bootstrap Project</title>
+  <style>
+    /* section {
+      padding: 60px 0;
+    } */
+
+    .stack-button {
+      background-color: #98dede;
+    }
+
+    .projects-container {
+      visibility: hidden;
+    }
+
+    .card-content:hover .projects-container {
+      visibility: visible;
+    }    
+  </style>
+
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-xxl">
+        <a href="#headline" class="navbar-brand">
+          <span class="fw-bold text-secondary"></span>
+        </a>
+        <!-- toggle button for mobile nav-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <!-- navbar links-->
+        <div class="collapse navbar-collapse justify-content-center justify-content-md-center align-center" id="main-nav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#headline">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about-me">About-me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- headline -->
+    <section id="headline">
+      <div class="container-lg d-flex ">
+        <div class="row justify-content-center justify-content-md-start">
+          <div class="col-md-5 text-center text-md-start mt-5 pt-5">
+            <h1>
+              <div class="display-2">Johnson Irungu</div>
+            </h1>
+              <p class="my-4">
+                Hello! I am a software developer! I can help you build a product, feature or website. Take a look at my work.<br><br>
+                If you like what you see and have a project you need coded, don't hesitate to contact me.
+              </p>
+              <a href="#collaboration" class="btn btn-dark btn-lg">Start Collaboration</a>
+            </div>
+          
+          <div class="justify-content-center align-md-center align-middle">
+            <img src="./Assets/image_dots/image_dots.png" alt="dot-image">
+          </div>
+        </div>
+        <div class="back-ground-img col-md-5 d-none d-md-block">
+          <img class="background-img" src="./Assets/image-geometry_1 (1).png" alt="background-image">
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" style="height: 100vh;" class="p-5">
+      <article class="container-lg d-flex flex-column justify-content-center align-md-center align-middle">
+        <div class="cards0 d-flex">
+          <div class="projects-title col-md-1">
+            <h2 class="text-upwards" style="writing-mode: vertical-rl; text-orientation: sideways; rotate: 180deg;">Projects</h2>
+          </div>
+          <div class="col-md-2">
+            <img src="Assets/image_dots/image_dots2.svg" alt="image-dots">
+          </div>
+          <div class="card-content col-md-9"  style="background-image: url(./Assets/Rectangle\ 21.png); background-size: cover; background-repeat: no-repeat;">
+            <div class="projects-container d-flex flex-column gap-5 text-white p-5 h-75" style="background-color:#1a2236f2;">
+              <div class="card-body">
+                <h5 class="card-title">Project name goes here</h5>
+                <ul class="bg-transparent list-unstyled d-flex gap-3">
+                  <li><button class="stack-button border-0">HTML/CSS</button></li>
+                  <li><button class="stack-button border-0">Ruby on Rails</button></li>
+                  <li><button class="stack-button border-0">JavaScript</button></li>
+                </ul>
+                <a href="#" class="card-link pt-5">
+                  <button class="See-project border-0 outline-0">See this project <img src="Assets/ic_arrow_right.png" alt="Arrow" class="border-0"></button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cards1 d-flex">
+          <div class="card-content col-md-4"  style="background-image: url(./Assets/Rectangle\ 46.png);background-size: contain; background-repeat: no-repeat;">
+            <div class="projects-container d-flex flex-column gap-5 text-white p-5  mt-auto h-75" style="background-color:#1a2236f2;">
+              <div class="card-body">
+                <h5 class="card-title">Project name goes here</h5>
+                <ul class="bg-transparent list-unstyled d-flex gap-3">
+                  <li><button class="stack-button border-0">HTML/CSS</button></li>
+                  <li><button class="stack-button border-0">Ruby on Rails</button></li>
+                  <li><button class="stack-button border-0">JavaScript</button></li>
+                </ul>
+                <a href="#" class="card-link pt-5">
+                  <button class="See-project border-0 outline-0">See this project <img src="Assets/ic_arrow_right.png" alt="Arrow" class="border-0"></button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-content col-md-4"  style="background-image: url(./Assets/image-geometry_2.png); background-size: contain; background-repeat: no-repeat;">
+            <div class="projects-container d-flex flex-column gap-5 text-white p-5  mt-auto h-75" style="background-color:#1a2236f2;">
+              <div class="card-body">
+                <h5 class="card-title">Project name goes here</h5>
+                <ul class="bg-transparent list-unstyled d-flex gap-3">
+                  <li><button class="stack-button border-0">HTML/CSS</button></li>
+                  <li><button class="stack-button border-0">Ruby on Rails</button></li>
+                  <li><button class="stack-button border-0">JavaScript</button></li>
+                </ul>
+                <a href="#" class="card-link pt-5">
+                  <button class="See-project border-0 outline-0">See this project <img src="Assets/ic_arrow_right.png" alt="Arrow" class="border-0"></button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-content col-md-4"  style="height: 150%; background-image: url(./Assets/Rectangle\ 26.png); background-repeat: no-repeat; background-position-y: bottom;">
+            <div class="projects-container d-flex flex-column gap-5 text-white p-5" style="height: -100%; background-color:#1a2236f2;">
+              <div class="card-body">
+                <h5 class="card-title">Project name goes here</h5>
+                <ul class="bg-transparent list-unstyled d-flex gap-3">
+                  <li><button class="stack-button border-0">HTML/CSS</button></li>
+                  <li><button class="stack-button border-0">Ruby on Rails</button></li>
+                  <li><button class="stack-button border-0">JavaScript</button></li>
+                </ul>
+                <a href="#" class="card-link pt-5">
+                  <button class="See-project border-0 outline-0">See this project <img src="Assets/ic_arrow_right.png" alt="Arrow" class="border-0"></button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cards2 d-flex w-100">
+          <div class="card-content col-md-6"  style="background-image: url(./Assets/Rectangle\ 27.png); background-size: auto; background-repeat: no-repeat;">
+            <div class="projects-container d-flex flex-column gap-5 text-white p-5 h-75" style="background-color:#1a2236f2;">
+              <div class="card-body">
+                <h5 class="card-title">Project name goes here</h5>
+                <ul class="bg-transparent list-unstyled d-flex gap-3">
+                  <li><button class="stack-button border-0">HTML/CSS</button></li>
+                  <li><button class="stack-button border-0">Ruby on Rails</button></li>
+                  <li><button class="stack-button border-0">JavaScript</button></li>
+                </ul>
+                <a href="#" class="card-link pt-5">
+                  <button class="See-project border-0 outline-0">See this project <img src="Assets/ic_arrow_right.png" alt="Arrow" class="border-0"></button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-content col-md-6 justify-content-md-end"  style="background-image: url(./Assets/image-geometry_3.png); background-size: auto; background-repeat: no-repeat;">
+            <div class="projects-container d-flex flex-column gap-5 text-white p-5 h-75" style="background-color:#1a2236f2;">
+              <div class="card-body">
+                <h5 class="card-title">Project name goes here</h5>
+                <ul class="bg-transparent list-unstyled d-flex gap-3">
+                  <li><button class="stack-button border-0">HTML/CSS</button></li>
+                  <li><button class="stack-button border-0">Ruby on Rails</button></li>
+                  <li><button class="stack-button border-0">JavaScript</button></li>
+                </ul>
+                <a href="#" class="card-link pt-5">
+                  <button class="See-project border-0 outline-0">See this project <img src="Assets/ic_arrow_right.png" alt="Arrow" class="border-0"></button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cards3 d-flex w-100">
+          <div class="card-content col-md-2"  style="background-image: url(./Assets/image-geometry_5.png); background-repeat: no-repeat;">
+
+          </div>
+          <div class="col-md-4"></div>
+          <div class="card-content col-md-.5"><img src="Assets/image-geometry_4.png" alt="image-geometry_4"></div>
+
+          <div class="card-content col-md-4"  style="background-image: url(./Assets/Rectangle\ 47.png); background-size: auto; background-repeat: no-repeat;">
+            <div class="projects-container d-flex flex-column gap-5 text-white p-5  mt-auto h-75" style="background-color:#1a2236f2;">
+              <div class="card-body">
+                <h5 class="card-title">Project name goes here</h5>
+                <ul class="bg-transparent list-unstyled d-flex gap-3">
+                  <li><button class="stack-button border-0">HTML/CSS</button></li>
+                  <li><button class="stack-button border-0">Ruby on Rails</button></li>
+                  <li><button class="stack-button border-0">JavaScript</button></li>
+                </ul>
+                <a href="#" class="card-link pt-5">
+                  <button class="See-project border-0 outline-0">See this project <img src="Assets/ic_arrow_right.png" alt="Arrow" class="border-0"></button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+     <!-- About me section-->
+  <section id="about-me" class="bg-light mt-5" style="padding:0px; padding-top: 250px;">
+    <div class="container-lg d-flex">
+        <div class="row justify-content-center text-center">
+          <div class="d-flex">
+            <div class="col-md-5 text-start text-md-start ps-5">
+                  <h2>
+                    <div class="display-2">
+                      About
+                    </div>
+                  </h2>
+                  <p class="">I can help you build a product, feature or website. look through some of my work and experience! If you like what you see and have a project you need coded, don't hesitste to contact me.</p>
+                  
+                  <a href="#get" class="btn btn-dark btn-lg ">Get my CV
+                    <img class="ps-3 pb-2" src="Assets/Group 61.png" alt="Get-CV">
+                  </a>
+            </div>
+
+        <div>
+          <div class="row">
+          <div class="">
+            <div class="card border-0 bg-primary text-white px-5 py-5">
+              <div class="card-body text-center py-3">
+                <h4 class="card-title">Languages</h4>
+                <ul class="list-group text-start">
+                  <li>JavaScript</li>
+                  <li>Ruby</li>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="">
+            <div class="card border-0 bg-warning text-white px-5 py-5">
+              <div class="card-body text-center py-3">
+                <h4 class="card-title">Skills</h4>
+                <ul class="list-group text-start">
+                  <li>Database Management</li>
+                  <li>CLI</li>
+                  <li>API Design</li>
+                  <li>Version Control</li>
+                  <li>Web Development</li>
+                </ul>
+              </div>
+         
+        </div>
+
+
+        <div>
+        <div>
+        <div class="col">
+          <div class="">
+            <div class="card border-0 bg-danger text-white px-5 py-5">
+              <div class="card-body text-center py-3">
+                <h4 class="card-title">Frameworks</h4>
+                <ul class="list-group text-start">
+                  <li>React.js</li>
+                  <li>Ruby on Rails</li>
+                  <li>RSpec</li>
+                  <li>Capibara</li>
+                </ul>
+              </div>
+            </div>
+            </div>
+
+        <img src="Assets/image_dots_with_teal.png" class="p-5">
+      </div>
+    </div>
+</div></div></div></div></div></div></div></section>
+    <div class="clearfix"></div>
+    <div class="clearfix"></div>
+    <!-- get started -->
+    <section id="get-start" class="d-flex justify-content-center " style="padding: 0px;">
+      <div id="left-bg"></div>
+      <div id="get-start-contener">
+        <h2 class="text-center">Get started</h2>
+        <p class="p-2">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
+        <form class="row g-3">
+          <div class="col-md-6" style="color: black;">
+            <label for="name" class="form-label">Your Name</label>
+            <input type="text" class="form-control" placeholder="Anastasiia" id="name">
+          </div>
+          <div class="col-md-6">
+            <label for="email" class="form-label">Your Email</label>
+            <input type="email" class="form-control" placeholder="anastasiia@gm..." id="email">
+          </div>
+          <div class="col-12">
+            <label for="message" class="form-label">Your message</label>
+            <textarea class="form-control" placeholder="Leave a comment here" id="message" rows="5">
+              </textarea>
+          </div>
+          <div class="col-12 d-flex justify-content-center mt-5" >
+            <button type="submit" class="btn btn-primary px-5 py-3">Start collaboration</button>
+          </div>
+        </form>
+      </div>
+      <div id="right-bg" class="align-self-end"></div>
+  
+    </section>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
